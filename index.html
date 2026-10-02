@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#070916" />
+  <meta name="description" content="HOMA — разработка, проекты и блог без скучной корпоративщины." />
+  <title>HOMA™ — код, проекты и немного хаоса</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <a href="#top" class="logo" aria-label="HOMA — на главную">
+      HOMA<span>™</span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#work">Проекты</a>
+      <a href="#blog">Блог</a>
+      <a href="#about">Я</a>
+      <a href="#contacts" class="nav-cta">Написать мне</a>
+    </nav>
+
+    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero section" id="hero">
+
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-orb" aria-hidden="true"></div>
+
+        <div class="hero-meta reveal">
+            <span>WEB / CODE / CHAOS</span>
+            <span>HOMA™ / 2026</span>
+        </div>
+
+        <div class="hero-main">
+
+            <div class="hero-side hero-side-left" aria-hidden="true">
+                <span>DESIGN</span>
+                <span>CODE</span>
+                <span>WEB</span>
+            </div>
+
+            <div class="hero-content">
+
+                <p class="hero-eyebrow reveal">
+                    ПРИВЕТ. Я ХОМА.
+                </p>
+
+                <h1 class="hero-title reveal">
+
+                    <span
+                        class="hero-word hero-word-yellow glitch"
+                        data-text="О, БЛЯТЬ."
+                    >
+                        О, БЛЯТЬ.
+                    </span>
+
+                    <span class="hero-word hero-word-white">
+                        ЭТО ХОМА.
+                    </span>
+
+                </h1>
+
+                <p class="hero-description reveal">
+                    Делаю сайты, пишу бэкенд, собираю Telegram-ботов
+                    и периодически выясняю, какого хуя CSS опять уехал вправо.
+                </p>
+
+                <div class="hero-actions reveal">
+
+                    <a href="#work" class="hero-button hero-button-primary">
+                        <span>Смотреть проекты</span>
+                        <b>↘</b>
+                    </a>
+
+                    <a href="#about" class="hero-button hero-button-secondary">
+                        Кто я вообще
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-side hero-side-right" aria-hidden="true">
+                <span>PYTHON</span>
+                <span>DJANGO</span>
+                <span>JS</span>
+            </div>
+
+        </div>
+
+
+        <div class="hero-sticker hero-sticker-one">
+            ДАЖЕ<br>РАБОТАЕТ
+        </div>
+
+        <div class="hero-sticker hero-sticker-two">
+            CTRL + Z<br>
+            НАША МАТЬ
+        </div>
+
+        <div class="hero-sticker hero-sticker-three">
+            NO<br>
+            BORING<br>
+            WEB
+        </div>
+
+        <div class="hero-sticker hero-sticker-four">
+            200<br>
+            OK
+        </div>
+
+
+        <div class="hero-bottom">
+
+            <div class="hero-status">
+                <i></i>
+                <span>ONLINE / ПИШУ КОД</span>
+            </div>
+
+            <a href="#skills" class="hero-scroll">
+                <span>SCROLL</span>
+
+                <div class="hero-scroll-line">
+                    <i></i>
+                </div>
+            </a>
+
+            <span class="hero-coordinate">
+                46°21' / INTERNET
+            </span>
+
+        </div>
+
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>HTML</span><b>✦</b>
+        <span>CSS</span><b>✦</b>
+        <span>JAVASCRIPT</span><b>✦</b>
+        <span>PYTHON</span><b>✦</b>
+        <span>DJANGO</span><b>✦</b>
+        <span>FIGMA</span><b>✦</b>
+        <span>TELEGRAM BOTS</span><b>✦</b>
+        <span>ИНОГДА МАТ</span><b>✦</b>
+
+        <span>HTML</span><b>✦</b>
+        <span>CSS</span><b>✦</b>
+        <span>JAVASCRIPT</span><b>✦</b>
+        <span>PYTHON</span><b>✦</b>
+        <span>DJANGO</span><b>✦</b>
+        <span>FIGMA</span><b>✦</b>
+        <span>TELEGRAM BOTS</span><b>✦</b>
+        <span>ИНОГДА МАТ</span><b>✦</b>
+      </div>
+    </div>
+
+    <section class="skills-chaos section" id="skills">
+
+        <div class="skills-chaos-head reveal">
+
+            <div>
+                <p class="section-kicker">
+                    01 / ЧЁ Я УМЕЮ
+                </p>
+
+                <h2>
+                    НЕ ТОЛЬКО<br>
+                    <span>КНОПКИ КРАШУ.</span>
+                </h2>
+            </div>
+
+            <p class="skills-chaos-note">
+                Иногда даже понимаю,
+                почему оно работает.
+            </p>
+
+        </div>
+
+
+        <div class="skills-chaos-grid">
+
+            <!-- FRONTEND -->
+
+            <article
+                class="chaos-skill chaos-skill-yellow reveal"
+                data-skill="FRONTEND"
+            >
+
+                <div class="chaos-glow"></div>
+
+                <div class="chaos-top">
+
+                    <span class="chaos-number">
+                        01
+                    </span>
+
+                    <span class="chaos-type">
+                        FRONTEND
+                    </span>
+
+                </div>
+
+
+                <div class="chaos-main">
+
+                    <h3>
+                        ДЕЛАЮ<br>
+                        КРАСИВО.
+                    </h3>
+
+                    <p>
+                        HTML, CSS, JavaScript,
+                        адаптив, анимации и интерфейсы,
+                        которые не хочется закрыть
+                        через две секунды.
+                    </p>
+
+                </div>
+
+
+                <div class="chaos-marquee">
+
+                    <div>
+                        <span>HTML</span>
+                        <b>✦</b>
+                        <span>CSS</span>
+                        <b>✦</b>
+                        <span>JAVASCRIPT</span>
+                        <b>✦</b>
+                        <span>RESPONSIVE</span>
+                        <b>✦</b>
+
+                        <span>HTML</span>
+                        <b>✦</b>
+                        <span>CSS</span>
+                        <b>✦</b>
+                        <span>JAVASCRIPT</span>
+                        <b>✦</b>
+                        <span>RESPONSIVE</span>
+                        <b>✦</b>
+                    </div>
+
+                </div>
+
+
+                <span class="chaos-stamp">
+                    PIXEL<br>
+                    БЛЯТЬ<br>
+                    PERFECT
+                </span>
+
+
+                <span class="chaos-hover-text">
+                    НИХУЯ СЕБЕ
+                </span>
+
+            </article>
+
+
+
+            <!-- BACKEND -->
+
+            <article
+                class="chaos-skill chaos-skill-dark reveal"
+                data-skill="BACKEND"
+            >
+
+                <div class="chaos-glow"></div>
+
+                <div class="chaos-top">
+
+                    <span class="chaos-number">
+                        02
+                    </span>
+
+                    <span class="chaos-type">
+                        BACKEND
+                    </span>
+
+                </div>
+
+
+                <div class="chaos-main">
+
+                    <h3>
+                        ЧТОБ ЭТА<br>
+                        ХЕРНЯ<br>
+                        РАБОТАЛА.
+                    </h3>
+
+                    <p>
+                        Python, Django, базы данных,
+                        API и всё то, что никто
+                        не замечает, пока оно
+                        внезапно не падает.
+                    </p>
+
+                </div>
+
+
+                <div class="chaos-code">
+
+                    <span>status:</span>
+                    <strong>200 OK</strong>
+
+                    <span>coffee:</span>
+                    <strong>REQUIRED</strong>
+
+                    <span>bugs:</span>
+                    <strong>WHO KNOWS</strong>
+
+                </div>
+
+
+                <span class="chaos-stamp">
+                    IT<br>
+                    WORKS
+                </span>
+
+
+                <span class="chaos-hover-text">
+                    ДАЖЕ BACKEND
+                </span>
+
+            </article>
+
+
+
+            <!-- UI UX -->
+
+            <article
+                class="chaos-skill chaos-skill-light reveal"
+                data-skill="UI / UX"
+            >
+
+                <div class="chaos-glow"></div>
+
+                <div class="chaos-top">
+
+                    <span class="chaos-number">
+                        03
+                    </span>
+
+                    <span class="chaos-type">
+                        UI / UX
+                    </span>
+
+                </div>
+
+
+                <div class="chaos-main">
+
+                    <h3>
+                        ЧТОБ<br>
+                        ГЛАЗА НЕ<br>
+                        БОЛЕЛИ.
+                    </h3>
+
+                    <p>
+                        Композиция, состояния,
+                        сценарии, адаптив и нормальная
+                        логика интерфейса вместо
+                        «ну кнопка же есть».
+                    </p>
+
+                </div>
+
+
+                <div class="chaos-ui">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                    <strong>
+                        LOOKS<br>
+                        GOOD?
+                    </strong>
+
+                </div>
+
+
+                <span class="chaos-stamp">
+                    UI<br>
+                    BUT<br>
+                    LOUD
+                </span>
+
+
+                <span class="chaos-hover-text">
+                    НЕ БОЛЬНО
+                </span>
+
+            </article>
+
+
+
+            <!-- TELEGRAM -->
+
+            <article
+                class="chaos-skill chaos-skill-purple reveal"
+                data-skill="TELEGRAM"
+            >
+
+                <div class="chaos-glow"></div>
+
+                <div class="chaos-top">
+
+                    <span class="chaos-number">
+                        04
+                    </span>
+
+                    <span class="chaos-type">
+                        TELEGRAM
+                    </span>
+
+                </div>
+
+
+                <div class="chaos-main">
+
+                    <h3>
+                        БОТЫ,<br>
+                        КОТОРЫЕ<br>
+                        НЕ ТУПЯТ.
+                    </h3>
+
+                    <p>
+                        Aiogram, FSM, бронирования,
+                        оплаты, уведомления
+                        и автоматизация процессов,
+                        которые людям делать лень.
+                    </p>
+
+                </div>
+
+
+                <div class="chaos-terminal">
+
+                    <span>
+                        &gt; booking created
+                    </span>
+
+                    <span>
+                        &gt; payment received
+                    </span>
+
+                    <span>
+                        &gt; human not required_
+                    </span>
+
+                </div>
+
+
+                <span class="chaos-stamp">
+                    BEEP<br>
+                    BOOP
+                </span>
+
+
+                <span class="chaos-hover-text">
+                    БОТ ЖИВОЙ
+                </span>
+
+            </article>
+
+        </div>
+
+
+        <div class="skills-bottom-line reveal">
+
+            <span>
+                ДА, ЭТО ВСЁ Я ДЕЛАЮ САМА
+            </span>
+
+            <span>
+                И НЕТ, WORDPRESS НЕ СЧИТАЕТСЯ BACKEND
+            </span>
+
+        </div>
+
+    </section>
+
+    <section class="projects-v2 section" id="work">
+
+        <!-- HEADER -->
+
+        <div class="projects-head reveal">
+
+            <div>
+
+                <p class="section-kicker">
+                    02 / ПРОЕКТЫ
+                </p>
+
+                <h2>
+                    ВОТ ЧЁ Я<br>
+                    <span>НАТВОРИЛА.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="projects-head-side">
+
+                <p>
+                    Не учебные карточки ради красивого портфолио.
+                    Здесь то, что я реально проектировала,
+                    собирала и периодически проклинала.
+                </p>
+
+                <span>
+                    SELECTED WORK / 2026
+                </span>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="projects-list">
+
+
+            <!-- =========================================
+                PROJECT 01
+                ========================================= -->
+
+            <article
+                class="mega-project reveal"
+                data-project="01"
+            >
+
+                <div class="mega-project-head">
+
+                    <span class="mega-number">
+                        01
+                    </span>
+
+                    <span class="mega-category">
+                        E-COMMERCE / DJANGO
+                    </span>
+
+                    <span class="mega-year">
+                        2026
+                    </span>
+
+                </div>
+
+
+
+                <div class="mega-project-title">
+
+                    <h3>
+                        GENERATOR
+                        <span>SHOP</span>
+                    </h3>
+
+                </div>
+
+
+
+                <div class="mega-project-layout">
+
+
+                    <!-- TEXT -->
+
+                    <div class="mega-project-info">
+
+                        <p class="mega-project-description">
+
+                            Полноценный интернет-магазин генераторов:
+                            каталог, категории, фильтрация, карточки товаров,
+                            корзина, избранное, импорт Excel и админка.
+
+                        </p>
+
+
+                        <div class="mega-project-tags">
+
+                            <span>PYTHON</span>
+
+                            <span>DJANGO</span>
+
+                            <span>POSTGRESQL</span>
+
+                            <span>HTML / CSS / JS</span>
+
+                        </div>
+
+
+                        <div class="mega-project-note">
+
+                            <span>
+                                STATUS
+                            </span>
+
+                            <strong>
+                                IN DEVELOPMENT
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- VISUAL -->
+
+                    <div class="mega-project-visual">
+
+
+                        <div class="project-image-wrap">
+
+                            
+                            <!-- ПОТОМ СЮДА ДОБАВИМ КАРТИНКУ: -->
+
+                            <img
+                                src="./static/img/gen-shop.png"
+                                alt="Generator Shop"
+                                class="project-image"
+                            >
+                            
+                            
+
+
+                            
+
+                        </div>
+
+
+                        <span class="project-image-label">
+                            01 / E-COMMERCE
+                        </span>
+
+
+                        <span class="project-image-sticker">
+                            БОЛЬШОЙ<br>
+                            БЛЯТЬ<br>
+                            МАГАЗИН
+                        </span>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="mega-project-footer">
+
+                    <span>
+                        FULLSTACK DEVELOPMENT
+                    </span>
+
+                    <span class="mega-project-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+            </article>
+
+
+
+
+            <!-- =========================================
+                PROJECT 02
+                ========================================= -->
+
+            <article
+                class="mega-project mega-project-reverse reveal"
+                data-project="02"
+            >
+
+                <div class="mega-project-head">
+
+                    <span class="mega-number">
+                        02
+                    </span>
+
+                    <span class="mega-category">
+                        TELEGRAM / AUTOMATION
+                    </span>
+
+                    <span class="mega-year">
+                        2026
+                    </span>
+
+                </div>
+
+
+
+                <div class="mega-project-title">
+
+                    <h3>
+                        CONKIT
+                        <span>BOT</span>
+                    </h3>
+
+                </div>
+
+
+
+                <div class="mega-project-layout">
+
+
+                    <div class="mega-project-info">
+
+                        <p class="mega-project-description">
+
+                            Бот для бронирования студии:
+                            услуги, павильоны, календарь,
+                            проверка свободного времени,
+                            расчёт стоимости, предоплата
+                            и подтверждение администратором.
+
+                        </p>
+
+
+                        <div class="mega-project-tags">
+
+                            <span>PYTHON</span>
+
+                            <span>AIOGRAM 3</span>
+
+                            <span>FSM</span>
+
+                            <span>RU / KZ</span>
+
+                        </div>
+
+
+                        <div class="mega-project-note">
+
+                            <span>
+                                AUTOMATION
+                            </span>
+
+                            <strong>
+                                HUMAN OPTIONAL
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="mega-project-visual">
+
+
+                        <div class="project-image-wrap">
+
+                           
+                            <!-- ПОТОМ: -->
+
+                            <img
+                                src="./static/img/conkit.png"
+                                alt="Conkit Telegram bot"
+                                class="project-image"
+                            >
+                           
+
+
+                            
+                        </div>
+
+
+                        <span class="project-image-label">
+                            02 / AUTOMATION
+                        </span>
+
+
+                        <span class="project-image-sticker project-image-sticker-white">
+                            БОТ<br>
+                            СДЕЛАЕТ<br>
+                            САМ
+                        </span>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="mega-project-footer">
+
+                    <span>
+                        TELEGRAM DEVELOPMENT
+                    </span>
+
+                    <span class="mega-project-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+            </article>
+
+
+
+
+            <!-- =========================================
+                PROJECT 03
+                ========================================= -->
+
+            <article
+                class="mega-project reveal"
+                data-project="03"
+            >
+
+                <div class="mega-project-head">
+
+                    <span class="mega-number">
+                        03
+                    </span>
+
+                    <span class="mega-category">
+                        WEB / MEDIA
+                    </span>
+
+                    <span class="mega-year">
+                        2026
+                    </span>
+
+                </div>
+
+
+
+                <div class="mega-project-title">
+
+                    <h3>
+                        КОД
+                        <span>ПАТРИОТ</span>
+                    </h3>
+
+                </div>
+
+
+
+                <div class="mega-project-layout">
+
+
+                    <div class="mega-project-info">
+
+                        <p class="mega-project-description">
+
+                            Контентный веб-проект о сфере информационной
+                            безопасности: статьи, образование, опыт,
+                            регулирование и мнения специалистов.
+
+                        </p>
+
+
+                        <div class="mega-project-tags">
+
+                            <span>WEB</span>
+                            <span>MEDIA</span>
+                            <span>RESPONSIVE</span>
+                            <span>CONTENT</span>
+
+                        </div>
+
+
+                        <div class="mega-project-note">
+
+                            <span>
+                                RESPONSIVE
+                            </span>
+
+                            <strong>
+                                MOBILE INCLUDED
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="mega-project-visual">
+
+
+                        <div class="project-image-wrap">
+
+                           
+                            <!-- ПОТОМ: -->
+
+                            <img
+                                src="./static/img/kod-pat.png"
+                                alt="Астрахань Цифровой"
+                                class="project-image"
+                            >
+                            
+
+
+                            
+
+
+                        <span class="project-image-label">
+                            03 / WEBSITE
+                        </span>
+
+
+                        <span class="project-image-sticker">
+                            DESKTOP<br>
+                            +<br>
+                            MOBILE
+                        </span>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="mega-project-footer">
+
+                    <span>
+                        FRONTEND DEVELOPMENT
+                    </span>
+
+                    <span class="mega-project-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+
+        <div class="projects-end reveal">
+
+            <span>
+                И ЭТО ЕЩЁ НЕ ВСЁ.
+            </span>
+
+            <p>
+                CTRL + S → CTRL + Z → CTRL + S
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="blog section" id="blog">
+      <div class="section-head reveal">
+        <p class="section-kicker">03 / БЛОГ</p>
+        <h2>ИНОГДА Я<br><span>ЕЩЁ ПИШУ.</span></h2>
+      </div>
+
+      <div class="blog-grid">
+        <a class="post reveal" href="#" onclick="return false;">
+          <div class="post-meta"><span>DJANGO</span><time>12 МИН</time></div>
+          <h3>Как я собирала интернет-магазин и не поседела</h3>
+          <p>Миграции, категории, товары, импорт Excel и тот самый момент, когда всё наконец работает.</p>
+          <span class="post-arrow">↗</span>
+        </a>
+
+        <a class="post reveal" href="#" onclick="return false;">
+          <div class="post-meta"><span>FRONTEND</span><time>7 МИН</time></div>
+          <h3>Почему CSS опять сделал вообще не то</h3>
+          <p>Grid, flex, адаптив и несколько способов перестать воевать с блоком, который уехал вправо.</p>
+          <span class="post-arrow">↗</span>
+        </a>
+
+        <a class="post reveal" href="#" onclick="return false;">
+          <div class="post-meta"><span>PYTHON</span><time>9 МИН</time></div>
+          <h3>Aiogram 3: бот, бронь и небольшой нервный тик</h3>
+          <p>FSM, календари, слоты, оплаты и почему простой Telegram-бот быстро перестаёт быть простым.</p>
+          <span class="post-arrow">↗</span>
+        </a>
+      </div>
+
+      <p class="blog-disclaimer reveal">Пока это концепт карточек. Сюда потом подключим настоящие страницы статей.</p>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-grid">
+        <div class="section-head reveal">
+          <p class="section-kicker">04 / ОБО МНЕ</p>
+          <h2>НЕ МАГИЯ.<br><span>ПРОСТО КОД.</span></h2>
+        </div>
+
+        <div class="about-copy reveal">
+          <p class="about-lead">
+            Я Хома. Люблю сайты с характером, интерфейсы без пластмассового корпоративного вайба и проекты, где можно сделать что-то своё.
+          </p>
+          <p>
+            Работаю с frontend и backend, собираю сайты на Django, пишу Telegram-ботов, делаю адаптив и постепенно превращаю идеи в штуки, которые можно открыть в браузере и потыкать.
+          </p>
+
+          <div class="about-tags">
+            <span>PYTHON</span>
+            <span>DJANGO</span>
+            <span>HTML/CSS</span>
+            <span>JAVASCRIPT</span>
+            <span>FIGMA</span>
+            <span>GIT</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="big-quote reveal">
+        <span>«</span>
+        <p>Сайт не обязан выглядеть так, будто его согласовывали семнадцать менеджеров.</p>
+        <span>»</span>
+      </div>
+    </section>
+
+    <section class="contacts section" id="contacts">
+      <p class="section-kicker reveal">05 / КОНТАКТЫ</p>
+
+      <div class="contact-title reveal">
+        <span>ЕСТЬ ИДЕЯ?</span>
+        <a href="mailto:programmisthoma@gmail.com">ПИШИ МНЕ.</a>
+      </div>
+
+      <div class="contact-footer reveal">
+        <div>
+          <p>EMAIL</p>
+          <a href="mailto:programmisthoma@gmail.com">programmisthoma@gmail.com</a>
+        </div>
+        <div>
+          <p>TELEGRAM</p>
+          <a href="https://t.me/ia_hochy_obnimashek" target="_blank" rel="noreferrer">@ia_hochy_obnimashek</a>
+        </div>
+        <div>
+          <p>GITHUB</p>
+          <a href="https://github.com/Homkaw" target="_blank" rel="noreferrer">github.com/Homkaw</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>HOMA™ © 2026</span>
+    <span>СДЕЛАНО С ☕, CTRL+Z И УПРЯМСТВОМ</span>
+    <a href="#top">НАВЕРХ ↑</a>
+  </footer>
+
+  <script src="./static/js/script.js"></script>
+</body>
+</html>
